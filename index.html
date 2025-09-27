@@ -32,6 +32,10 @@
             <input class="formulario__entrada" type="tel" id="telefono" name="telefono">
         </div>
         <div class="formulario__grupo">
+            <label class="formulario__etiqueta" for="telefono">Correo Electronico</label>
+            <input class="formulario__entrada" type="tel" id="telefono" name="GMAIL">
+        </div>
+        <div class="formulario__grupo">
             <label class="formulario__etiqueta" for="genero">Género</label>
             <select class="formulario__seleccion" id="genero" name="genero">
                 <option value="">Seleccione...</option>
@@ -41,12 +45,11 @@
             </select>
         </div>
 
-        <div class="formulario__grupo formulario__grupo--hobbies">
-            <label class="formulario__etiqueta">Hobbies:</label>
-            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="leer"> Leer</label>
-            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="musica"> Música</label>
-            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="deportes"> Deportes</label>
-            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="viajar"> Viajar</label>
+        <div class="formulario__grupo formulario__tipo--usuarios">
+            <label class="formulario__etiqueta">Tipo De usuario:</label>
+            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="leer"> Estudiante</label>
+            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="musica"> Egresado</label>
+            <label><input class="formulario__checkbox" type="checkbox" name="hobbies" value="deportes"> Aspirante</label>
         </div>
 
         <button id="btnRegistro" class="formulario__boton" type="button">Registrar</button>
